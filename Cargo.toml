@@ -1,0 +1,9 @@
+[package]
+authors = ["Max Block <maxblock@pm.me>"]
+edition = "2018"
+name = "learn"
+version = "0.1.0"
+
+[dependencies]
+hyper = "0.13.8"
+tokio = {version = "0.2.22", features = ["full"]}
